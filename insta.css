@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@100&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+#overlay{
+    
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    position: absolute;  
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.544);
+    display: none;
+
+
+}
+
+#overlay #photo{
+    width: 40%;
+    height: 100%;
+    background-color: rgb(230, 15, 15);
+}
+
+#overlay img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+}
+#story{
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-between;
+   position: absolute;
+   left: 3%;
+   top: 10%;
+    
+}
+.pic{
+    width: 80px;;
+    height: 80px;
+    background: linear-gradient(to right bottom ,red ,green,);    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.pic>img{
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    background-position: center;
+    border-radius: 20px;
+    justify-content: space-between;
+   }
+
+
+#gum{
+    width: 100%;
+    background-color: rgb(242, 240, 240);
+    height: 8%;
+    font-family: 'Dancing Script', cursive;
+
+}
+h1{
+    margin-left: 5%;
+}
+ i{
+    position: absolute;
+    top: 2%;
+    left: 2%;
+    
+}
+input{
+    width: 20%;
+    height: 30px;
+    position: absolute;
+    left: 40%;
+    top: 2%;
+    border-radius: 22px;
+    background-color: rgb(246, 252, 252);
+    color: rgb(16, 16, 16);
+}
+#ko{
+
+    position: absolute;
+    left: 80%;
+    top:3%;
+
+}
+#jj{
+    position: absolute;
+    left: 82%;
+    top:3%;
+}
+#jk{
+    position: absolute;
+    left: 84%;
+    top:3%;
+}
+
+#jo
+{
+    position: absolute;
+    left: 86%;
+    top:3%;
+}
+#loop{
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    background-position: center;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    left: 88%;
+    top:1%;
+}
+hr{
+margin-right: 0%;
+margin-top:4%;
+}
+#pika{
+    width: 35%;
+
+    justify-content: space-between;    
+}
+button{
+    width: 15%;
+    height: 3%;
+    border-radius: 20px;
+    background-color: rgb(108, 145, 231);
+    display: flex;
+    border: none;
+color: white;
+    justify-content: space-between;
+
+    
+}
+.oops{
+    margin-top: 30%;
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+
+}
+#tyagi{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+    background-position: center;
+
+}
+#gum #loop :hover {
+
+    transition: cubic-bezier(0.19, 1, 0.22, 1)6s;
+    
+}
+#come {
+    
+    margin-top: 15%;
+    min-width:70%;
+    
+    min-height: 120vh;
+    background-color: rgb(143, 15, 15);
+}
+ #con{
+    position: absolute;
+    top: 25%;
+   left: 7%;
+
+}
